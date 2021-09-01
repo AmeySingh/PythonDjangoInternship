@@ -1,0 +1,80 @@
+Python 3.9.5 (tags/v3.9.5:0a7dcbd, May  3 2021, 17:27:52) [MSC v.1928 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print("Hello world!")
+Hello world!
+>>> name = "rajesh"
+>>> name
+'rajesh'
+>>> name = 20
+>>> name
+20
+>>> name = True
+>>> name
+True
+>>> name
+True
+>>> String name = "raj"
+  File "<stdin>", line 1
+    String name = "raj"
+           ^
+SyntaxError: invalid syntax
+>>> name
+True
+>>> name  = []
+>>> name
+[]
+>>> name = "rajesh"
+>>>
+>>> name
+'rajesh'
+>>> name = "r"
+>>> name
+'r'
+>>> type(name)
+<class 'str'>
+>>> name[0]
+'r'
+>>> name[1]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+>>> name = "rajesh"
+>>> name[0]
+'r'
+>>> name[1]
+'a'
+>>> name[2]
+'j'
+>>> name[3]
+'e'
+>>> name[-1]
+'h'
+>>> name
+'rajesh'
+>>> name[3]
+'e'
+>>> name[3] = "t"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> name = "suarj"
+>>> name
+'suarj'
+>>> name
+'suarj'
+>>> name = "suraj"
+>>> name[2:]
+'raj'
+>>> name[2:5]
+'raj'
+>>> name[2:4]
+'ra'
+>>> name[:]
+'suraj'
+>>> name[:5]
+'suraj'
+>>> name[::]
+'suraj'
+>>> name[::-1]
+'jarus'
+>>>

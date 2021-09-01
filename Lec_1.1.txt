@@ -1,0 +1,86 @@
+Python3
+
+Advantages of python
+1. Popularity
+2. Easy to learn and use
+3. Less code ,more work
+4. python script - we can python scripts as well as high level game development, website development data analytics etc
+5. pthon is interpreted language - no cmpoliation - faster development
+6. OOPS object oriented programming
+7. python is dynamic typed language
+
+Hello World!
+print("hello world")
+
+>>> name = "rajesh"
+>>> name
+'rajesh'
+>>> name = 20
+>>> name
+20
+>>> name = True
+>>> name
+True
+>>> name
+True
+
+Data Types
+1. String
+2. Number
+3. List
+4. Tuple
+5. Dictionary
+
+
+1. String
+collection of characters
+
+name = "rajesh"
+
+- string is indexed
+>>> name = "rajesh"
+>>> name[0]
+'r'
+>>> name[1]
+'a'
+
+- string are immutable
+once you create a string you can not change it
+
+>>> name
+'rajesh'
+>>> name[3]
+'e'
+>>> name[3] = "t"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object does not support item assignment
+>>> name = "suarj"
+>>> name
+'suarj'
+
+--slicing on string
+>>> name = "suraj"
+>>> name[2:]
+'raj'
+>>> name[2:5]
+'raj'
+>>> name[2:4]
+'ra'
+>>> name[:]
+'suraj'
+>>> name[:5]
+'suraj'
+>>> name[::]
+'suraj'
+>>> name[::-1]
+'jarus'
+
+
+
+
+
+
+
+
+
