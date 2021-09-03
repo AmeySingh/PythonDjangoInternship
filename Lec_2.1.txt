@@ -1,0 +1,77 @@
+Number
+
+>>> a = 10
+>>> a
+10
+>>> b = '20'
+>>> b
+'20'
+>>> type(b)
+<class 'str'>
+>>> type(a)
+<class 'int'>
+>>> c = int(b)
+>>> c
+20
+>>> name = "raj"
+>>> int(name)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: 'raj'
+>>> int(b)
+20
+>>> age = input("please enter your age: ")
+please enter your age: 25
+>>> age
+'25'
+>>> int(age)
+25
+>>> age = int(input("please enter your age: "))
+please enter your age: 34
+>>> age
+34
+
+Conditional statements
+1. If Else
+
+>>> if(2<3):
+...     print("yes its true")
+... else:
+...     print("no its not true")
+...
+yes its true
+
+Functions
+
+>>> def canIVote():
+...     age = int(input("Please enter your age :"))
+...     if(age>=18):
+...             print("yes you can vote.")
+...     else:
+...             print("No you can not vote.")
+...
+>>> canIVote()
+Please enter your age :45
+yes you can vote.
+
+Loops
+1. for loop
+
+>>> for j in range(1,5):
+...     print("hello world",j)
+...
+hello world 1
+hello world 2
+hello world 3
+hello world 4
+2. while loop
+>>> while(c<=5):
+...     print("hello world",c)
+...     c = c + 1
+...
+hello world 0
+hello world 1
+hello world 2
+hello world 3
+hello world 4
+hello world 5
